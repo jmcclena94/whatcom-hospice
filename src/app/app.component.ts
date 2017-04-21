@@ -7,7 +7,6 @@ import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { HcadPage } from '../pages/hcad/hcad';
 import { PolstPage } from '../pages/polst/polst';
-import { ListPage } from '../pages/list/list';
 import { StaffPage } from '../pages/staff/staff';
 
 @Component({
@@ -26,9 +25,8 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage },
       { title: 'About', component: AboutPage },
-      { title: 'HCAD', component: HcadPage },
+      { title: 'Honoring Choices Advanced Directive', component: HcadPage },
       { title: 'POLST', component: PolstPage },
       { title: 'Staff', component: StaffPage }
     ];
