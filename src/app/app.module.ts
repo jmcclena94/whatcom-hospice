@@ -36,7 +36,10 @@ import { CallNumber } from '@ionic-native/call-number';
     HomePage,
     ListPage,
     AboutPage,
-    StaffPage
+    StaffPage,
+    TAHPage,
+    TAIPage,
+    AMIPage
   ],
   providers: [
     StatusBar,
