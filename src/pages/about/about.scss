@@ -2,9 +2,12 @@ page-about {
 
     .card-background-page {
 
+        background-color: #7D853C;
+
         ion-card {
             position: relative;
             text-align: center;
+            border-radius: 10px;
         }
 
         .card-title {
