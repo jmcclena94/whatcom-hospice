@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { StaffPage } from '../pages/staff/staff';
 import { HcadPage } from '../pages/hcad/hcad';
+import { PolstPage } from '../pages/polst/polst';
 import { TAHPage } from '../pages/talk-about-hospice/talk-about-hospice';
 import { TAIPage } from '../pages/talk-about-illness/talk-about-illness';
 import { AMIPage } from '../pages/advanced-medical-interventions/advanced-medical-interventions';
@@ -24,6 +25,7 @@ import { File } from '@ionic-native/file';
     AboutPage,
     StaffPage,
     HcadPage,
+    PolstPage,
     TAHPage,
     TAIPage,
     AMIPage
@@ -39,6 +41,7 @@ import { File } from '@ionic-native/file';
     AboutPage,
     StaffPage,
     HcadPage,
+    PolstPage,
     TAHPage,
     TAIPage,
     AMIPage
