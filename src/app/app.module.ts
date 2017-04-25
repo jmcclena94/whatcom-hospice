@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { StaffPage } from '../pages/staff/staff';
+import { HcadPage } from '../pages/hcad/hcad';
 import { TAHPage } from '../pages/talk-about-hospice/talk-about-hospice';
 import { TAIPage } from '../pages/talk-about-illness/talk-about-illness';
 import { AMIPage } from '../pages/advanced-medical-interventions/advanced-medical-interventions';
@@ -13,6 +14,8 @@ import { AMIPage } from '../pages/advanced-medical-interventions/advanced-medica
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { CallNumber } from '@ionic-native/call-number';
+import { Transfer, TransferObject } from '@ionic-native/transfer';
+import { File } from '@ionic-native/file';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,7 @@ import { CallNumber } from '@ionic-native/call-number';
     HomePage,
     AboutPage,
     StaffPage,
+    HcadPage,
     TAHPage,
     TAIPage,
     AMIPage
@@ -34,6 +38,7 @@ import { CallNumber } from '@ionic-native/call-number';
     HomePage,
     AboutPage,
     StaffPage,
+    HcadPage,
     TAHPage,
     TAIPage,
     AMIPage
@@ -42,7 +47,10 @@ import { CallNumber } from '@ionic-native/call-number';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    CallNumber
+    CallNumber,
+    Transfer,
+    TransferObject,
+    File
   ]
 })
 export class AppModule {}
